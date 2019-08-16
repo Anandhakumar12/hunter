@@ -7,4 +7,7 @@ for i in d:
         li.append(i)
     else:
         li1.append(i)
-print(*li1)
+aa=set(li1)
+s=list(aa)
+print(*s)
+
